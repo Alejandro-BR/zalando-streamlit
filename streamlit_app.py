@@ -4,7 +4,7 @@ import numpy as np
 from tensorflow import keras
 from PIL import Image, ImageOps
 
-model = keras.models.load_model("/models/zalando.keras")
+model = keras.models.load_model("models/zalando.keras")
 
 st.title("Ialando - Clasificación de prendas")
 
