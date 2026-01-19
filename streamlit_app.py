@@ -6,7 +6,7 @@ from PIL import Image, ImageOps
 
 model = keras.models.load_model("models/zalando.keras")
 
-st.title("Ialando - Clasificación de prendas")
+st.title("👕 Clasificación de prendas 👟")
 
 uploaded_files = st.file_uploader(
     "Sube una imagen de la prenda que quieres clasificar",
